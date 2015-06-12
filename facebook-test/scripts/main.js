@@ -22,7 +22,7 @@ $(document).ready(function() {
 				FB.api('/me', function(response) {
 					console.log('Good to see you, ' + response.name + '.');
 					console.log(response);
-					$('body').append('<img src="http://graph.facebook.com/v2.3/'+response.id+'/picture">');
+					$('body').append('<img src="http://graph.facebook.com/v2.3/'+response.id+'/picture?fields=picture.width(800).height(800)">');
 				});
 			}
 		});
