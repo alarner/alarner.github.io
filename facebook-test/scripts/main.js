@@ -16,7 +16,7 @@ $(document).ready(function() {
 					 } else {
 						 console.log('User cancelled login or did not fully authorize.');
 					 }
-				 });
+				 }, {scope: 'user_friends'});
 			}
 			else {
 				FB.api('/me', function(response) {
