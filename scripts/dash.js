@@ -1,3 +1,4 @@
+(function() {
 if(window.location.hostname !== 'online.theironyard.com') {
 	alert('This bookmarklet must be run from TIYO');
 }
@@ -7,3 +8,4 @@ else if(!window.location.pathname.match(/\/admin\/paths\/([0-9]+)/)) {
 else {
 	console.log('You\'re on the correct page');
 }
+})();
