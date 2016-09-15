@@ -1,17 +1,29 @@
 {
-  "name": "Canned Responses",
-  "details": "The [Canned Responses](https://example.org) power up is awesome because it can...",
+  "name": "Static Template",
+  "description": "",
+  "details": "A static sample Power-Up hosted on GitHub pages. Feel free to fork [this repository](https://github.com/trello/power-up-template) as a starting point for your own Power-Up.",
   "icon": {
-    "url": "./images/noun_85822_cc.png"
+    "url": "./images/logo.png"
   },
-  "author": "Aaron Larner",
+  "author": "Trello Inc",
   "capabilities": [
+    "attachment-sections",
+    "attachment-thumbnail",
     "board-buttons",
-    "card-buttons"
+    "callback",
+    "card-badges",
+    "card-buttons",
+    "card-detail-badges",
+    "card-from-url",
+    "format-url",
+    "show-settings"
   ],
   "connectors": {
     "iframe": {
-      "url": "./"
+      "url": "./index.html"
     }
+  },
+  "recommend": {
+    "urls": []
   }
 }
