@@ -42,7 +42,7 @@ TrelloPowerUp.initialize({
     return [{
       icon: './images/noun_85822_cc.png',
       text: 'Template',
-      callback: function() {}
+      callback: cardButtonCallback
     }];
   }
   // 'card-buttons': function(t, options){
