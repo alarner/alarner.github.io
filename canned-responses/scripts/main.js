@@ -5,8 +5,8 @@ TrelloPowerUp.initialize({
     text: 'Canned Responses',
     callback: function(t){
       return t.popup({
-        title: 'Settings',
-        url: '../templates.html',
+        title: 'Test',
+        url: '/canned-responses/templates.html',
         height: 184
       });
     }}];
