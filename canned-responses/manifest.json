@@ -1,0 +1,17 @@
+{
+  "name": "Canned Responses",
+  "details": "The [Canned Responses](https://example.org) power up is awesome because it can...",
+  "icon": {
+    "url": "./images/noun_85822_cc.png"
+  },
+  "author": "Aaron Larner",
+  "capabilities": [
+    "board-buttons",
+    "card-buttons"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./"
+    }
+  }
+}
