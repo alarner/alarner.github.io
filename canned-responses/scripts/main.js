@@ -1,4 +1,11 @@
 TrelloPowerUp.initialize({
+  'card-buttons': function(t, options) {
+    return [{
+      icon: './images/noun_85822_cc.png',
+      text: 'Template',
+      callback: function() {}
+    }];
+  }
   // 'card-buttons': function(t, options){
   //   return [
   //     {
