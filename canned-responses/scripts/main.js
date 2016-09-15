@@ -4,7 +4,11 @@ TrelloPowerUp.initialize({
     icon: './images/icon-white.svg',
     text: 'Canned Responses',
     callback: function(t){
-      console.log('canned responses clicked!');
+      return t.popup({
+        title: 'Settings',
+        url: './templates.html',
+        height: 184
+      });
     }}];
   }
 });
